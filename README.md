@@ -9,3 +9,4 @@ Removing the results from the students suspected of academic dishonest at Thomas
 - Replacing the 9th grade scores:
 -- Increased the average math and reading scores
 ## Summary
+As a result of replacing the Thomas High School 9th graders' scores, the average scores and passing percentages went down. This caused Thomas High School's rank to fall out of the top 5 schools. Of course, this also resulted in the district's average scores to drop as well. 
