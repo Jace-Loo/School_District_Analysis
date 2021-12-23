@@ -18,7 +18,7 @@ We also found that Small and Medium schools had very similar scores, while Large
 
 ![Scores by School Size](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Results/Scores_by_School_Size.png)
 
-We also created a DataFrame storing the average math and reading scores by grade for each school. Please see Analyzing_Reading_and_Math_Scores(https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb) for the full DataFrame
+We also created a DataFrame storing the average math and reading scores by grade for each school. Please see [Analyzing_Reading_and_Math_Scores](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb) for the full DataFrame
 Math:
 ```
 ninth_grade_math_scores = ninth_graders.groupby(["school_name"]).mean()["math_score"]
@@ -57,4 +57,4 @@ Removing the results of the 9th graders from Thomas High School did cause small 
 ![Top Scores Adjusted for THS](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Results/Top_Schools_Adjusted.png)
 
 ## Summary
-Our analysis found the average math and reading test scores for each school, as well as each grade in each school. We found that the Top 5 Schools in Py City were all Charter schools. (Congrats Cabrera High School for coming out on top!) We also organized the scores by school size and found that Large schools had an alarmingly low percentage of students passing both math and reading tests. Small and Medium schools both had about 90% of students passing both tests. For more details on the test scores, please see Analyzing_Reading_and_Math_Scores(https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb).
+Our analysis found the average math and reading test scores for each school, as well as each grade in each school. We found that the Top 5 Schools in Py City were all Charter schools. (Congrats Cabrera High School for coming out on top!) We also organized the scores by school size and found that Large schools had an alarmingly low percentage of students passing both math and reading tests. Small and Medium schools both had about 90% of students passing both tests. For more details on the test scores, please see [Analyzing_Reading_and_Math_Scores](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb).
