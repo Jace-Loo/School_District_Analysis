@@ -18,7 +18,7 @@ We also found that Small and Medium schools had very similar scores, while Large
 
 ![Scores by School Size](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Results/Scores_by_School_Size.png)
 
-We also created a DataFrame storing the average math and reading scores by grade for each school. Please see [Analyzing_Reading_and_Math_Scores](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb) for the full DataFrame
+We also created a DataFrame storing the average math and reading scores by grade for each school. Please see [Analyzing_Reading_and_Math_Scores](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb) for the full DataFrame.
 
 Math:
 ```
