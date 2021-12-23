@@ -1,6 +1,6 @@
 # School_District_Analysis
 ## Overview
-This analysis conducts an in-depth look at the reading and math scores from across District and Charter schools in Py City. The scores come from students in 9th - 12th grade taking standardized reading and math tests.
+This analysis conducts an in-depth look at the reading and math scores from across District and Charter schools in Py City. The scores come from students in 9th, 10th, 11th, and 12th grade taking standardized reading and math tests.
 
 ### Purpose
 This analysis aims to find trends in the scores from different schools in Py City. We find the average math and reading scores for each school, as well as the average scores grouped by grade in each school. We also find the average percentage of students passing math, students passing reading, and students passing both math and reading, from each school, across schools grouped by size, and across Charter and District schools. 
@@ -19,6 +19,7 @@ We also found that Small and Medium schools had very similar scores, while Large
 ![Scores by School Size](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Results/Scores_by_School_Size.png)
 
 We also created a DataFrame storing the average math and reading scores by grade for each school. Please see [Analyzing_Reading_and_Math_Scores](https://github.com/Jace-Loo/School_District_Analysis/blob/05fc3606a0135f1b0b2fd72ef3908c206ccb2945/Analyzing_Reading_and_Math_Scores.ipynb) for the full DataFrame
+
 Math:
 ```
 ninth_grade_math_scores = ninth_graders.groupby(["school_name"]).mean()["math_score"]
@@ -35,6 +36,7 @@ math_scores_by_grade = pd.DataFrame({
                "11th": eleventh_grade_math_scores,
                "12th": twelfth_grade_math_scores})
 ```
+
 Reading:
 ```
 ninth_grade_reading_scores = ninth_graders.groupby(["school_name"]).mean()["reading_score"]
